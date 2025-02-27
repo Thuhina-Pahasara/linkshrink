@@ -1,0 +1,2 @@
+# linkshrink
+a linkshrinking tool
