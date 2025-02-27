@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e2f;
+    color: white;
+    flex-direction: column;
+}
+
+/* Success message */
+.success-message {
+    background-color: #2d3436;
+    color: #ff03af;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 128, 0.5);
+}
+
+/* Shortened link box */
+.link-box {
+    background: #ddff00;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Shortened URL input */
+#short-url {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+}
+
+/* Copy button */
+.copy-btn {
+    padding: 8px 12px;
+    background: #00b894;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.copy-btn:hover {
+    background: #019874;
+}
+
+/* Error message */
+.error-message {
+    background-color: #d63031;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+}
